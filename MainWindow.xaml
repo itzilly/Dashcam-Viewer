@@ -1,0 +1,33 @@
+﻿<Window x:Class="Dashcam_Viewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dashcam_Viewer"
+        mc:Ignorable="d"
+        Title="Dashcam Viewer" Height="450" Width="800">
+    <Grid>
+        <Menu Width="Auto" Height="20" Background="#FFA9D1F4" VerticalAlignment="Top">
+            <MenuItem Header="File" >
+                <MenuItem Header="Open SD Card..." Click="FileMenu_OpenSdCard_Click" />
+                <MenuItem Header="Select Clips Folder..." Click="FileMenu_SelectClipsFolder_Click" />
+                <Separator/>
+                <MenuItem Header="Settings" Click="FileMenu_Settings_Click" />
+                <Separator />
+                <MenuItem Header="Exit" Click="FileMenu_Exit_Click" />
+            </MenuItem>
+            
+            <MenuItem Header="Edit">
+                
+            </MenuItem>
+
+            <MenuItem Header="View">
+                
+            </MenuItem>
+            
+            <MenuItem Header="About">
+                
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
